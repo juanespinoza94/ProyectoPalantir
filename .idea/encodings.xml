@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AuditoriaMicroservices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthMicroservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ComprasMicroservices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ConsumoMicroservices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HabitacionMicroservices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InventarioMicroservices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PagosMicroservices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ReportesMicroservices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ReservaMicroservices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

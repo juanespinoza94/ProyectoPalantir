@@ -1,0 +1,129 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: auth-service
+          uri: lb://AuthMicroservice
+          predicates:
+            - Path=/login
+        - id: empleados-service
+          uri: lb://AuthMicroservice
+          predicates:
+            - Path=/api/empleados/**
+        - id: huespedes-service
+          uri: lb://AuthMicroservice
+          predicates:
+            - Path=/api/huespedes/**
+        - id: cargo-service
+          uri: lb://AuthMicroservice
+          predicates:
+            - Path=/api/cargo/**
+        - id: habitacion
+          uri: lb://HabitacionMicroservices
+          predicates:
+            - Path=/api/habitacion/**
+        - id: tipo-habitacion
+          uri: lb://HabitacionMicroservices
+          predicates:
+            - Path=/api/tipoHabitacion/**
+        - id: reservas
+          uri: lb://ReservaMicroservices
+          predicates:
+            - Path=/api/reserva/**
+        - id: reservas-plan
+          uri: lb://ReservaMicroservices
+          predicates:
+            - Path=/api/planes/**
+        - id: reservas-precio-planes
+          uri: lb://ReservaMicroservices
+          predicates:
+            - Path=/api/precioHabitacion/**
+        - id: reservas-vistas
+          uri: lb://ReservaMicroservices
+          predicates:
+            - Path=/api/vistasReservas/**
+        - id: pagos
+          uri: lb://PagosMicroservices
+          predicates:
+            - Path=/api/pago/**
+        - id: pagoDetalle
+          uri: lb://PagosMicroservices
+          predicates:
+            - Path=/api/pagoDetalle/**
+        - id: pagoTarjeta
+          uri: lb://PagosMicroservices
+          predicates:
+            - Path=/api/pagoTarjeta/**
+        - id: bancoDisponible
+          uri: lb://PagosMicroservices
+          predicates:
+            - Path=/api/bancoDisponibles/**
+        - id: vistas-pagos
+          uri: lb://PagosMicroservices
+          predicates:
+            - Path=/api/pagosVistas/**
+        - id: item-consumo
+          uri: lb://ConsumoMicroservices
+          predicates:
+            - Path=/api/itemConsumo/**
+        - id: solicitud-consumo
+          uri: lb://ConsumoMicroservices
+          predicates:
+            - Path=/api/solicitudConsumo/**
+        - id: detalle-reserva
+          uri: lb://ConsumoMicroservices
+          predicates:
+            - Path=/api/detalleReserva/**
+        - id: horario-servicio
+          uri: lb://ConsumoMicroservices
+          predicates:
+            - Path=/api/horarioServicio/**
+        - id: empleado-servicio
+          uri: lb://ConsumoMicroservices
+          predicates:
+            - Path=/api/empleadoServicio/**
+        - id: inventario-stock
+          uri: lb://ConsumoMicroservices
+          predicates:
+            - Path=/api/stock/**
+        - id: inventario-vencimiento
+          uri: lb://ConsumoMicroservices
+          predicates:
+            - Path=/api/vencimientoProducto/**
+        - id: consumo-vistas
+          uri: lb://ConsumoMicroservices
+          predicates:
+            - Path=/api/consumoVistas/**
+        - id: inventario-vistas
+          uri: lb://ConsumoMicroservices
+          predicates:
+            - Path=/api/inventarioVistas/**
+        - id: proveedores
+          uri: lb://ComprasMicroservices
+          predicates:
+            - Path=/api/proveedor/**
+        - id: orden-compra
+          uri: lb://ComprasMicroservices
+          predicates:
+            - Path=/api/ordenCompra/**
+        - id: detalle-orden
+          uri: lb://ComprasMicroservices
+          predicates:
+            - Path=/api/detalleOrden/**
+        - id: compras-vistas
+          uri: lb://ComprasMicroservices
+          predicates:
+            - Path=/api/vistasCompras/**
+        - id: item-proveedor
+          uri: lb://ComprasMicroservices
+          predicates:
+            - Path=/api/itemProveedor/**
+        - id: auditoria
+          uri: lb://AuditoriaMicroservices
+          predicates:
+            - Path=/api/auditoria/**
+        - id: reportes
+          uri: lb://ReportesMicroservices
+          predicates:
+            - Path=/api/reportes/**
+

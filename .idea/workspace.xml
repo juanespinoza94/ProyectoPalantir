@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7403f2cb-020b-4b20-8933-43bfe42cf641" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuditoriaMicroservices/src/main/java/com/cibertec/controller/AuditoriaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuditoriaMicroservices/src/main/java/com/cibertec/model/Auditoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuditoriaMicroservices/src/main/java/com/cibertec/repository/AuditoriaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuditoriaMicroservices/src/main/java/com/cibertec/service/AuditoriaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuditoriaMicroservices/src/main/java/com/cibertec/serviceImpl/AuditoriaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/controller/CargoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/controller/EmpleadoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/controller/HuespedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/model/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/model/Cargo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/model/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/model/Huesped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/repository/CargoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/repository/EmpleadoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/repository/HuespedRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/security/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/security/JWTAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/service/CargoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/service/EmpleadoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/service/HuespedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/service/UsuarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/serviceImpl/CargoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/serviceImpl/EmpleadoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/serviceImpl/HuespedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/serviceImpl/UserDetailImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/serviceImpl/UserServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/util/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumoMicroservices/src/main/java/com/cibertec/model/DetalleReservaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumoMicroservices/src/main/java/com/cibertec/model/ProductoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumoMicroservices/src/main/java/com/cibertec/model/ServicioDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/controller/BancoDisponibleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/controller/PagoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/controller/PagoDetalleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/controller/PagoTarjetaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/controller/PagosVistaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/exception/OperacionNoPermitidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/model/BancoDisponible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/model/DetalleReservaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/model/DummyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/model/Pago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/model/PagoDetalle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/model/PagoTarjeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/model/VistaPagosReserva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/model/VistaReservasPendientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/repository/BancoDisponibleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/repository/PagoDetalleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/repository/PagoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/repository/PagoTarjetaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/repository/PagosVistaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/service/BancoDisponibleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/service/PagoDetalleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/service/PagoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/service/PagoTarjetaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/service/PagosVistaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/serviceImpl/BancoDisponibleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/serviceImpl/DetalleReservaClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/serviceImpl/PagoDetalleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/serviceImpl/PagoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/serviceImpl/PagoTarjetaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/serviceImpl/PagosVistaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/controller/ReporteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/ConsumoPorHabitacionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/DummyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/GastoTotalHuespedDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/IngresosDiariosDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/IngresosPorTipoHabitacionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/KpiGastoPromedioHuespedDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/KpiIngresosMensualesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/KpiOcupacionActualDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/KpiProductosMesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/KpiPromedioEstanciaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/ProductosMasConsumidosDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/ReporteFinancieroDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/ServiciosMasUsadosDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/TopServiciosSemanaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/modelDTO/VistaOcupacionActualDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/repository/ReporteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/service/ReporteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/serviceImpl/ReporteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/controller/PlanAlojamientoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/controller/PrecioHabitacionPlanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/model/HabitacionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/model/HuespedDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/model/PlanAlojamiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/model/PrecioHabitacionPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/model/ReservaEmpleadoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/model/ReservaUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/model/ReservaWebDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/repository/PlanAlojamientoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/repository/PrecioHabitacionPlanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/service/PlanAlojamientoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/service/PrecioHabitacionPlanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/serviceImplement/EmpleadoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/serviceImplement/HabitacionClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/serviceImplement/HuespedClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/serviceImplement/PlanAlojamientoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/serviceImplement/PrecioHabitacionPlanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservaMicroservices/src/main/java/com/cibertec/util/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/cibertec/gateway/security/JwtAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/cibertec/gateway/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuditoriaMicroservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AuditoriaMicroservices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuditoriaMicroservices/src/main/java/com/cibertec/AuditoriaMicroservicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuditoriaMicroservices/src/main/java/com/cibertec/AuditoriaMicroservicesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuditoriaMicroservices/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AuditoriaMicroservices/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthMicroservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AuthMicroservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/AuthMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/java/com/cibertec/AuthMicroserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthMicroservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AuthMicroservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PagosMicroservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PagosMicroservices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/PagosMicroservicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/java/com/cibertec/PagosMicroservicesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PagosMicroservices/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PagosMicroservices/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportesMicroservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ReportesMicroservices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/ReportesMicroservicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/java/com/cibertec/ReportesMicroservicesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportesMicroservices/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ReportesMicroservices/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2yvO6QqwLyBQqhXEsnFTjHOXXXx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in AuditoriaMicroservices.executor": "Run",
+    "JUnit.All in eureka.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.gateway [clean].executor": "Run",
+    "Maven.gateway [deploy].executor": "Run",
+    "Maven.gateway [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AuditoriaMicroservicesApplication.executor": "Run",
+    "Spring Boot.AuthMicroserviceApplication.executor": "Run",
+    "Spring Boot.ComprasMicroservicesApplication.executor": "Run",
+    "Spring Boot.ConfigApplication.executor": "Run",
+    "Spring Boot.ConsumoMicroservicesApplication.executor": "Run",
+    "Spring Boot.EurekaApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.HabitacionMicroservicesApplication.executor": "Run",
+    "Spring Boot.InventarioMicroservicesApplication.executor": "Run",
+    "Spring Boot.PagosMicroservicesApplication.executor": "Run",
+    "Spring Boot.ReportesMicroservicesApplication.executor": "Run",
+    "Spring Boot.ReservaMicroservicesApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Descargas/Cibertec/Sexto ciclo/DAW II/Proyectos/T2-DAWII",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "settings.qodana",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="InventarioMicroservicesApplication" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="All in AuditoriaMicroservices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AuditoriaMicroservices" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in eureka" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eureka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuditoriaMicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="AuditoriaMicroservices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.AuditoriaMicroservicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="AuthMicroservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.AuthMicroserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComprasMicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ComprasMicroservices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.ComprasMicroservicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumoMicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ConsumoMicroservices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.ConsumoMicroservicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HabitacionMicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HabitacionMicroservices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.HabitacionMicroservicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventarioMicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="InventarioMicroservices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.InventarioMicroservicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PagosMicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="PagosMicroservices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.PagosMicroservicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportesMicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ReportesMicroservices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.ReportesMicroservicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservaMicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ReservaMicroservices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cibertec.ReservaMicroservicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in AuditoriaMicroservices" />
+      <item itemvalue="JUnit.All in eureka" />
+      <item itemvalue="Spring Boot.AuditoriaMicroservicesApplication" />
+      <item itemvalue="Spring Boot.AuthMicroserviceApplication" />
+      <item itemvalue="Spring Boot.ComprasMicroservicesApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.ConsumoMicroservicesApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.HabitacionMicroservicesApplication" />
+      <item itemvalue="Spring Boot.InventarioMicroservicesApplication" />
+      <item itemvalue="Spring Boot.PagosMicroservicesApplication" />
+      <item itemvalue="Spring Boot.ReportesMicroservicesApplication" />
+      <item itemvalue="Spring Boot.ReservaMicroservicesApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in AuditoriaMicroservices" />
+        <item itemvalue="JUnit.All in eureka" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7403f2cb-020b-4b20-8933-43bfe42cf641" name="Changes" comment="" />
+      <created>1750711406191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750711406191</updated>
+      <workItem from="1750711407224" duration="21530000" />
+      <workItem from="1750734987217" duration="6422000" />
+      <workItem from="1750812137594" duration="18113000" />
+      <workItem from="1750898112732" duration="16115000" />
+      <workItem from="1750997856264" duration="2984000" />
+      <workItem from="1751006647122" duration="1042000" />
+      <workItem from="1751034651104" duration="23000" />
+      <workItem from="1751034753810" duration="11483000" />
+      <workItem from="1751046397462" duration="30912000" />
+      <workItem from="1751078592558" duration="2306000" />
+      <workItem from="1751153139750" duration="5743000" />
+      <workItem from="1751160172980" duration="898000" />
+      <workItem from="1751243275154" duration="747000" />
+      <workItem from="1751254585795" duration="414000" />
+      <workItem from="1751255399352" duration="2127000" />
+      <workItem from="1751259156389" duration="173000" />
+      <workItem from="1751299572225" duration="1114000" />
+      <workItem from="1751301220923" duration="121000" />
+      <workItem from="1751301356956" duration="32669000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
